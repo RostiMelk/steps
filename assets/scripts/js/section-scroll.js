@@ -1,3 +1,9 @@
+jQuery(document).ready(function( $ ) {  
+    $(document).ready(function () {
+        $('body').sectionScroll(); 
+    })          
+});    
+
 (function ($) {
     'use strict';
 

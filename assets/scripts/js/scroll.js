@@ -7,4 +7,3 @@ jQuery(document).ready(function( $ ) {
         }, 750);
     });
 });
-history.scrollRestoration = "manual"
