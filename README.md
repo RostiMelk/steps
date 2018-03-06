@@ -1,5 +1,5 @@
 # Steps - An ACF based Wordpress theme
-!(https://rosti.no/wp-content/uploads/2018/03/Steps.jpg)
+![Featured Image](https://rosti.no/wp-content/uploads/2018/03/Steps.jpg)
 ### Installation
 1. Install Theme.
 2. Install ACF Pro.
