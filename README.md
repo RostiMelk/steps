@@ -13,6 +13,6 @@
 4. Profit
 
 ### Screenshots
-![Fullpage screenshot](http://cdn.rosti.no/images/steps.png)
+![Fullpage screenshot](http://cdn.rosti.no/images/steps-fullpage.png)
 
 *View more of my work on [rosti.no](https://rosti.no)*
