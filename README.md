@@ -13,8 +13,6 @@
 4. Profit
 
 ### Screenshots
-![Image 1](https://rosti.no/wp-content/uploads/2018/03/Steps-Frontpage.jpg)
-![Image 2](https://rosti.no/wp-content/uploads/2018/03/Steps-Frontpage2.jpg)
-![Image 3](https://rosti.no/wp-content/uploads/2018/03/Steps-Frontpage3.jpg)
+![Fullpage screenshot](http://cdn.rosti.no/images/steps.png)
 
 *View more of my work on [rosti.no](https://rosti.no)*
