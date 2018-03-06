@@ -17,4 +17,4 @@
 ![Image 2](https://rosti.no/wp-content/uploads/2018/03/Steps-Frontpage2.jpg)
 ![Image 3](https://rosti.no/wp-content/uploads/2018/03/Steps-Frontpage3.jpg)
 
-*View more of my work on rosti.no*
+*View more of my work on [rosti.no](https://rosti.no)*
