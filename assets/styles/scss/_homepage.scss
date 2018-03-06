@@ -73,20 +73,21 @@ p {
 .column, .columns {
     min-height: rem-calc(1);
 } 
+a.button {
+    border-radius: rem-calc(50); 
+    min-width: rem-calc(180);
+    display: inline-block;
+    margin: rem-calc(20 0);
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    font-size: rem-calc(18);  
+}
 a.action-button {
     background: transparent;
     border: rem-calc(4) solid;
     padding: rem-calc(12 26);
-    min-width: rem-calc(180);
-    border-radius: rem-calc(50);
-    font-size: rem-calc(18); 
-    margin: rem-calc(20 0);
-    display: inline-block;
-    text-align: center;
-    font-size: rem-calc(18);
     box-sizing: border-box;
-    transition: all .3s ease-in-out;
-    font-weight: 500;
     &:hover, &:focus {
         color: $white !important;
     }
@@ -94,15 +95,6 @@ a.action-button {
 a.action-button-filled {
     color: $white;
     padding: rem-calc(16 30);
-    min-width: rem-calc(180);
-    border-radius: rem-calc(50);
-    font-size: rem-calc(18); 
-    margin: rem-calc(20 0);
-    display: inline-block;
-    text-align: center;
-    font-size: rem-calc(18);
-    transition: background-color .3s ease-in-out;
-    font-weight: 500;
 }
 .map {
     background-color: $section1;
@@ -120,9 +112,9 @@ a.action-button-filled {
         .stage-number {
             position: absolute;
             opacity: 0.07;
-            font-size: rem-calc(950);
+            font-size: rem-calc(940);
             font-weight: 500;
-            line-height: rem-calc(800);
+            line-height: rem-calc(760);
             right: 16%;
             user-select: none;
         }

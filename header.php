@@ -12,8 +12,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta class="foundation-mq">
 
-		<!-- Google Material Icons -->
+		<!-- Google Fonts & Icoins -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700" rel="stylesheet">
 
 		<!-- Chrome mobile URL-bar color -->
 		<meta name="theme-color" content="<?php the_field('color', 'options'); ?>">

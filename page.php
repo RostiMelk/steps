@@ -62,7 +62,7 @@
                                         <?php the_sub_field('section_text') ?>
                                     </div>
                                     <?php if( get_sub_field('section_button_text') ): ?>
-                                        <a href="<?php the_sub_field('section_button'); ?>" class="action-button" style="color: <?php the_field('color', 'options'); ?>; border-color: <?php the_field('color', 'options'); ?>" <?php the_sub_field('new_tab'); ?>><?php the_sub_field('section_button_text'); ?></a>
+                                        <a href="<?php the_sub_field('section_button'); ?>" class="button action-button" style="color: <?php the_field('color', 'options'); ?>; border-color: <?php the_field('color', 'options'); ?>" <?php the_sub_field('new_tab'); ?>><?php the_sub_field('section_button_text'); ?></a>
                                     <?php endif; ?>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                 <p><?php the_field('action_text'); ?></p>
                             </div>
                             <?php if( get_field('action_button_url') ): ?>
-                                <a href="<?php the_field('action_button_url'); ?>" class="action-button-filled" <?php the_field('new_tab'); ?> style="background-color: <?php the_field('color', 'options'); ?>"><?php the_field('action_button_text'); ?></a>
+                                <a href="<?php the_field('action_button_url'); ?>" class="button action-button-filled" <?php the_field('new_tab'); ?> style="background-color: <?php the_field('color', 'options'); ?>"><?php the_field('action_button_text'); ?></a>
                             <?php endif; ?>
                         </div>
                     </div>
