@@ -1,13 +1,10 @@
-body {
-    overflow-x: hidden;
-}
 #hero {
     height: 100vh;
     position: relative;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    z-index: 2000;
+    z-index: 5000;
     .background-overlay {
         background-color: rgba(0,0,0,0.5);
         position: absolute;
@@ -66,35 +63,6 @@ body {
             } 
         }
     }
-}
-p {
-    font-size: rem-calc(18);
-}
-.column, .columns {
-    min-height: rem-calc(1);
-} 
-a.button {
-    border-radius: rem-calc(50); 
-    min-width: rem-calc(180);
-    display: inline-block;
-    margin: rem-calc(20 0);
-    font-weight: 500;
-    transition: all .3s ease-in-out;
-    text-align: center;
-    font-size: rem-calc(18);  
-}
-a.action-button {
-    background: transparent;
-    border: rem-calc(4) solid;
-    padding: rem-calc(12 26);
-    box-sizing: border-box;
-    &:hover, &:focus {
-        color: $white !important;
-    }
-}
-a.action-button-filled {
-    color: $white;
-    padding: rem-calc(16 30);
 }
 .map {
     background-color: $section1;
@@ -194,38 +162,6 @@ a.action-button-filled {
         }
     }
 }
-footer.footer {
-    color: $white;
-    margin: 0;
-    height: rem-calc(90);
-    position: relative;
-    .footer-logo {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        height: rem-calc(34);
-        display: block;
-    }
-    .copyright-wrapper {
-        height: rem-calc(90);
-        position: relative;
-        p.copyright {
-            margin: 0;
-            text-align: right;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 100%;
-            font-size: rem-calc(16);
-            padding-left: inherit;
-            padding-right: inherit;
-            a {
-                color: white;
-                text-decoration: underline;
-            }
-        }
-    }
-}
 @media handheld, only screen and (max-width: rem-calc(850)) {
     #hero .hero-container .hero-arrow-wrapper {
         bottom: rem-calc(80);
@@ -261,40 +197,6 @@ footer.footer {
                     transform: none;
                 }
             }
-        }
-    }
-    footer.footer {
-        .footer-logo {
-            height: rem-calc(28);
-        }
-        .copyright-wrapper p.copyright {
-            font-size: rem-calc(14);
-            a {
-                display: block;
-            }
-        }
-    }
-}
-body.preloader-site {
-    overflow: hidden;
-}
-.preloader-wrapper {
-    height: 100%;
-    width: 100%;
-    background: #FFF;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999999;
-    .preloader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        svg{
-            height: 100px;
-            display:inline-block;
         }
     }
 }

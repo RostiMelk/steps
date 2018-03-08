@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+p {
+    font-size: rem-calc(18);
+}
+.column, .columns {
+    min-height: rem-calc(1);
+} 
+a.button {
+    border-radius: rem-calc(50); 
+    min-width: rem-calc(180);
+    display: inline-block;
+    margin: rem-calc(20 0);
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    font-size: rem-calc(18);  
+}
+a.action-button {
+    background: transparent;
+    border: rem-calc(4) solid;
+    padding: rem-calc(12 26);
+    box-sizing: border-box;
+    &:hover, &:focus {
+        color: $white !important;
+    }
+}
+a.action-button-filled {
+    color: $white;
+    padding: rem-calc(16 30);
+}
