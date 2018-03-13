@@ -1,7 +1,7 @@
 # Steps - An Advanced Custom Fields Pro based Wordpress theme
 ![Featured Image](https://rosti.no/wp-content/uploads/2018/03/Steps.jpg)
 ### General info
-- You can add from one to nine sections.
+- You can add from 1 to 99 sections.
 - You can remove the bottom action section with a toggle.
 - You can add buttons on every section with custom text.
 - You can add images on every section.

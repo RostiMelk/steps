@@ -28,12 +28,17 @@
     <section id="content">
         <?php if( have_rows('section') ):
             while ( have_rows('section') ) : the_row(); ?>
-                <div class="map scrollable-section" data-section-title="Step <?php echo ++$i; ?>" tabindex="0">
+                <div class="map scrollable-section" data-section-title="<?php the_sub_field('section_bullet_title'); ?>" tabindex="0">
                     <div class="row">
+                        <span style="display: none;"><?php echo ++$i; ?></span>
                         <div class="small-12 columns section-wrapper">    
                             <span class="stage-number" style="color: <?php the_field('color', 'options'); ?>">
                                 <?php if( !get_sub_field('section_image') ): ?>    
-                                    <?php echo +$i; ?>
+                                    <?php
+                                        $num = +$i;
+                                        $num_padded = sprintf("%02d", $num);
+                                        echo $num_padded;
+                                    ?>
                                 <?php endif; ?>
                             </span>
                             <?php if( get_sub_field('section_image') ): ?>  

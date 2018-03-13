@@ -15,12 +15,31 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
+            "collapsed": "field_5a82d95636fb9",
             "min": 1,
-            "max": 9,
+            "max": 99,
             "layout": "block",
-            "button_label": "Ny seksjon",
+            "button_label": "New section",
             "sub_fields": [
+                {
+                    "key": "field_5aa7baffc4e45",
+                    "label": "Section bullet title",
+                    "name": "section_bullet_title",
+                    "type": "text",
+                    "instructions": "This will show up on the bullet menu to the right.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Section",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 25
+                },
                 {
                     "key": "field_5a82d95636fb9",
                     "label": "Section heading",
@@ -200,5 +219,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1519929023
+    "modified": 1520942431
 }
