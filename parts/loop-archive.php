@@ -6,20 +6,24 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article">					
+<article class="column column-block">					
 	
-	<header class="article-header">
-		<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-		<?php get_template_part( 'parts/content', 'byline' ); ?>
-	</header> <!-- end article header -->
-					
-	<section class="entry-content" itemprop="articleBody">
-		<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('full'); ?></a>
-		<?php the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-	</section> <!-- end article section -->
-						
-	<footer class="article-footer">
-    	<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>
-	</footer> <!-- end article footer -->	
+	<a href="<?php the_permalink() ?>">
+		<div class="article-top-image" style="background-image: url(<?php the_field('hero_image'); ?>)">
+			<div class="article-content">
+				<div class="title-wrapper">
+					<div class="small-10 no-padding columns">
+						<h4><?php the_title(); ?></h4>
+					</div>
+					<div class="small-2 no-padding columns">
+						<i class="material-icons arrow-article">arrow_forward</i>
+					</div>
+				</div>
+				<p><?php the_field('hero_text'); ?></p>
+			</div>
+		</div>
+	</a>
+	<div class="colored-line" style="background-color: <?php the_field('color', 'options'); ?>"></div>	
+
 				    						
 </article> <!-- end article -->
