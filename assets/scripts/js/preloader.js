@@ -13,6 +13,7 @@ jQuery(document).ready(function($) {
             sr.reveal('.hero-heading-wrapper', {delay: '400', duration: 1000});
             sr.reveal('.hero-text-wrapper', {delay: '480', duration: 1000});
             sr.reveal('.arrow-down', {delay: '1000', duration: 1000});	
+            sr.reveal('.article', 200);
         },"1200");
     });
 });

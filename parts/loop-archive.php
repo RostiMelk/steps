@@ -6,7 +6,7 @@
  */
 ?>
 
-<article class="column column-block">					
+<article class="article column column-block">					
 	
 	<a href="<?php the_permalink() ?>">
 		<div class="article-top-image" style="background-image: url(<?php the_field('hero_image'); ?>)">
