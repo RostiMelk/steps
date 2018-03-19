@@ -51,7 +51,7 @@
 			*::selection {
 				background-color: <?php the_field('color', 'options'); ?>;
 			}
-			.article-top-image:hover .arrow-article {
+			.article-inner:hover .arrow-article {
 				color:  <?php the_field('color', 'options'); ?>;
 			}
 			@keyframes pulse {

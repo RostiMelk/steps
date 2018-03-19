@@ -8,8 +8,9 @@
 
 <article class="article column column-block">					
 	
-	<a href="<?php the_permalink() ?>">
+	<a class="article-inner" href="<?php the_permalink() ?>">
 		<div class="article-top-image" style="background-image: url(<?php the_field('hero_image'); ?>)">
+			<div class="article-top-image-overlay"></div>
 			<div class="article-content">
 				<div class="title-wrapper">
 					<div class="small-10 no-padding columns">
@@ -23,7 +24,7 @@
 			</div>
 		</div>
 	</a>
-	<div class="colored-line" style="background-color: <?php the_field('color', 'options'); ?>"></div>	
+	<span class="colored-line" style="background-color: <?php the_field('color', 'options'); ?>"></span>	
 
 				    						
 </article> <!-- end article -->
